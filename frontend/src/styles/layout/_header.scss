@@ -1,0 +1,34 @@
+.header{
+    &_hero{
+        padding: 190px 0px;
+        @include media('>phone', '<=425px'){
+            padding: 80px 5px;
+        }
+    }
+    &_img{
+        &>img{
+            width: 100% !important;
+            margin: 0 auto;
+        }
+    }
+}
+    .header{
+        &_content_tittle{
+            font-size: 6rem;
+            font-weight: 700;
+            line-height: 7.2rem;
+            @include media('>phone', '<=900px'){
+                font-size: 3.5rem;
+                line-height: 5rem;
+            }
+            span{
+            color: $green !important;
+            }
+        }
+
+        &_pera{
+            font-size: 1.5rem;
+            font-weight: 300;
+            line-height: 2.4rem;
+        }
+}

@@ -1,0 +1,46 @@
+.service{
+    padding-bottom: 50px;
+}
+.pointSection{
+
+    &_bg{
+        background-color: $green-light_bg;
+    }
+    &_content{
+        padding: 30px 50px;
+    }
+    &_des{
+        p{
+        quotes: '"' '"' "'" "'";
+        &:before{
+            content: open-quote;
+            font-size: 60px;
+            display: block;
+            margin-top: -38px;
+            position: absolute;
+            margin-left: -11px;
+             }
+        }
+    }
+
+}
+
+.experimentSec{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    &_des{
+        padding: 85px 20px;
+    }
+}
+
+blockquote::before {
+    content: open-quote;
+  }
+  blockquote::after {
+    content: close-quote;
+  }
+  blockquote {
+    quotes: "“" "”" "‘" "’";
+    quotes: \0022;
+  }
+  

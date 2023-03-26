@@ -1,0 +1,17 @@
+.service{
+    &_card{
+        background: linear-gradient(140deg,#BADBFB , #FFFFFF);
+        padding: 40px 15px;
+        border-radius: 5px;
+        h3{
+            font-size: 2.2rem;
+            font-weight: 400;
+        }
+        p{
+            font-weight: 300;
+        }
+        &_icon img{
+            max-width: 50px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+
+
+.footer_menu {
+    display: flex;
+    justify-content: end;
+    ul{
+        li {
+            display: inline;
+            padding: 10px;
+        }
+    }
+}
